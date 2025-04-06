@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color:#1E1E1E; 
+
+}
+.welcome-ia {
+    width: 32px;
+    height: 31px;
+    margin-top: 49px;
+    display: inline-block;
+    margin-right: 4px;
+    margin-left: 20px;
+}
+
+h1 {
+    color: white;
+    display: inline-block;
+    margin-right: 180px;
+    width: 71px;
+    height: 24px;    
+}
+
+.button {
+    background-color: #141414;
+    border: none;
+    border-radius: 8px;
+}
+
+.context {
+    background-color: #1F1F1F;
+    border: none;
+    border-radius: 15px;
+    opacity: 0.5;
+    width: 350px;
+    height: 44px;
+    display: flex;
+    color: #A1A1AA;
+    margin-top: 16px;
+    margin-left: 20px;   
+    margin-bottom: 12px;
+}
+
+.alterar-stack {
+    width: 135px;
+    height: 50px;
+    color: #FAFAFA;
+    background-color: #1F1F1F;
+    position: absolute;
+    border-radius: 8px;
+    position: absolute;
+    top: 95px;
+    left: 222px;
+    z-index: 999;
+}
+
+.button-context {
+    margin-left: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.button-span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    background-color: #C58DE7;
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 12px 12px 12px 0px;
+}
+.span-texto {
+    padding: 8px 10px 8px 10px;
+    text-align: left; 
+    font-size: 16px;   
+}
+
+p {
+    color: #E1E1E6;
+    margin-left: 20px;
+    margin-top: 16px;
+
+}
+
+.input-duvida {
+    color: #5E5E66;
+    text-align: left;
+    width: 350px;
+    height: 80px;                 /* Adiciona altura */
+    margin-top: 233px;
+    margin-left: 20px;
+    background-color: #1F1F1F;
+    border: 2px solid #27272A;
+    border-radius: 8px;
+    padding: 10px 16px;           /* Espaço interno */
+    box-sizing: border-box;       /* Essencial para respeitar o tamanho */
+    font-size: 16px;
+    resize: none;
+}
+
+.button-enviar {
+    background-color: #C58DE7;
+    width: 350px;
+    height: 48px;
+    border: none;
+    margin-top: 13px;
+    margin-left: 20px;
+    border-radius: 12px;
+    display: block;
+}
+
+button {
+    background-color: #1F1F1F;
+    border: none;
+    cursor: pointer;
+}
+
+.caixa-final {
+    display: flex;
+    justify-content: center;
+    float: left;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.button-chat {
+    display: flex;  
+    flex-direction: column;           /* alinha ícone e texto no botão */
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    color: #C58DE7;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 105px;
+}
+
+.button-historico {
+    display: flex;  
+    flex-direction: column;           /* alinha ícone e texto no botão */
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    color: #5E5E66;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button-float {
+  z-index: 5;
+}

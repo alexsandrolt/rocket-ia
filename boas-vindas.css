@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+}
+
+body {
+    background-color: #1E1E1E; 
+    display: flex;
+    justify-content: center;
+
+}
+
+.welcome-ia2 {
+    margin-top: 160px;
+    margin-left: 98px;
+}
+
+.p1 {
+    color: #5E5E66;
+    margin-bottom: 12px;
+}
+
+p {
+    color:#E1E1E6;
+    
+}
+
+h1 {
+    color: rgb(250, 250, 250);
+    margin-bottom: 12px;
+}
+
+button {
+    width: 350px;
+    height: 48px;
+    border: none;
+    background-color: #C58DE7;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 42px;
+}

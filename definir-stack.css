@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E; 
+}
+
+.welcome-ia {
+    width: 32px;
+    height: 31px;
+    margin-top: 40px ;
+    margin-left: 20px;
+    margin-right: 5px;
+    display: inline-block;
+   
+}
+
+
+
+
+h1 {
+    color: rgb(250, 250, 250);
+    width: 71px;
+    height: 24px;
+    display: inline-block;
+  
+    
+    
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+span {
+    color: white
+}
+p {
+   color: #E1E1E6;
+   margin-top: 78px;
+   margin-bottom: 32px;
+   margin-left: 20px;  
+}
+
+.click {
+    cursor: pointer;
+}
+
+
+
+.button-confirmar {
+    width: 350px;
+    height: 48px;
+    border: none;
+    background-color: #C58DE7;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 78px;
+    margin-left: 20px;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+
+}
+
