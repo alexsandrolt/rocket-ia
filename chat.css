@@ -7,7 +7,17 @@
 
 body {
     background-color:#1E1E1E; 
+  
 }
+
+.app-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 
 .welcome-ia {
     width: 32px;
@@ -16,6 +26,7 @@ body {
     display: inline-block;
     margin-right: 4px;
     margin-left: 20px;
+  
 }
 
 h1 {
@@ -30,6 +41,9 @@ h1 {
     background-color: #141414;
     border: none;
     border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .context {

@@ -1,76 +1,140 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-    background-color: #1E1E1E; 
+  background-color: #1e1e1e;
 }
 
-.welcome-ia {
-    width: 32px;
-    height: 31px;
-    margin-top: 40px ;
-    margin-left: 20px;
-    margin-right: 5px;
-    display: inline-block;
-   
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navegacao {
+    margin-right: 259.11px;
+    margin-left: 90px;
 }
 
 
 
+.logo-nav {
+  width: 31.89px;
+  height: 31px;
+  margin-top: 40px;
+  margin-right: 3.5px;
+  margin-left: 20px;
+}
 
 h1 {
-    color: rgb(250, 250, 250);
-    width: 71px;
-    height: 24px;
-    display: inline-block;
-  
-    
-    
+  color: rgb(250, 250, 250);
+  margin-top: 40px;
+  margin-left: 8px;;
 }
 
-button{
-    background-color: transparent;
-    border: none;
+button {
+  background-color: transparent;
+  border: none;
 }
 
 span {
-    color: white
+  color: white;
 }
+
+.quebra {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    transform: translateX(-127px); /* ajuste esse valor pra mais ou menos conforme desejar */
+  }
+
 p {
-   color: #E1E1E6;
-   margin-top: 78px;
-   margin-bottom: 32px;
-   margin-left: 20px;  
+  color: #e1e1e6;
+  text-align: center;
+  margin-top: 178.5px;
 }
 
 .click {
-    cursor: pointer;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: #27272a;
+  padding: 8px;
+  margin-left: 33.03px;
+  display: flex;
+  align-items: center;
 }
 
 
-
-.button-confirmar {
-    width: 350px;
-    height: 48px;
-    border: none;
-    background-color: #C58DE7;
-    border-radius: 8px;
+.btn-kotlin {
+    color: #FAFAFA;
+    background-color: #141414;
+    width: 106px;
+    height: 40px;
+    border-radius: 12px;
+    border: 2px solid #FAFAFA;
+    display: flex;
+    align-items: center;
+    gap:12px;
+    padding: 8px;
     cursor: pointer;
-    margin-top: 78px;
-    margin-left: 20px;
+    
+}
+
+.btn-stack {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #27272a;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.btn-stack-devops {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #27272a;
+  border-radius: 12px;
+  margin-left: 56px;
 
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    max-width: 400px;
-    margin: auto;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 400px;
+  margin-top: 32px;
+  margin-left: 2px;
+  margin-bottom: 178.5px;
 }
 
+.caixa-p {
+  margin-top: 178.5px;
+  margin-bottom: 32px;
+}
+
+.button-confirmar {
+  width: 350px;
+  height: 48px;
+  border: none;
+  background-color: #c58de7;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 78px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.button-confirmar1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

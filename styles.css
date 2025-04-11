@@ -2,17 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+  }
 
-body {
-    background-color:#1E1E1E; 
-    display:flex;
+  body {
+    background-color: #1E1E1E; 
+    display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
-}
+  }
+  
+ img {
+  margin-left: 1vw;
+  margin-top: 379px;
+  margin-bottom: 379px;
+  cursor: pointer;
 
-.img-welcome {
-    cursor: pointer;
-}
+ }

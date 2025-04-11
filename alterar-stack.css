@@ -9,6 +9,14 @@ body {
     background-color:#1E1E1E; 
 
 }
+
+.app-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .welcome-ia {
     width: 32px;
     height: 31px;
